@@ -196,3 +196,45 @@ chi2_df = chi2_df.sort_values(by = 'p_value')
 final_df = df_cleaned[['age','is_female','bmi', 'children','is_smoker', 'charges','region_southeast', 'bmi_category_Obese']]
 print("Final Data :")
 print(final_df)
+
+# =============== Model Selection ==============
+# =============== Linear Regression Model ==============
+
+from sklearn.model_selection import train_test_split
+
+X = final_df.drop('charges', axis = 1)
+y = final_df['charges']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42) #80% training 20% testing split
+
+from sklearn.linear_model import LinearRegression  # Linear regression Creation
+
+model = LinearRegression()
+
+model.fit(X_train, y_train) 
+# print(model)
+
+y_predictions = model.predict(X_test)
+
+# print(y_predictions)
+# print(y_test)
+
+# ========== Model Evaluation ==========
+# ========== Comparing Actual Value with predicted Value  ==========
+
+from sklearn.metrics import r2_score
+
+r2 = r2_score(y_test, y_predictions) # R^2 
+print("R^2:",r2)
+
+# Adjusted R^2
+n = X_test.shape[0]  #No. of rows
+p = X_test.shape[1]  #No. of Columns
+
+adjusted_r2 = 1 - ((1 - r2) * (n-1)/ (n - p - 1))
+print("Adjusted R^2:", adjusted_r2)
+
+ 
+
+
+
