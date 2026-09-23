@@ -46,7 +46,7 @@ y_predct = model.predict(X_test)
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 acc_score = accuracy_score(y_test, y_predct)
-
+print("Accuracy Score:", acc_score)
 cnf_matrix = confusion_matrix(y_test,y_predct)
 # print(cnf_matrix)
 clf_report = classification_report(y_test,y_predct)

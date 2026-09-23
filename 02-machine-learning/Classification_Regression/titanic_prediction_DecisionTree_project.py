@@ -44,9 +44,9 @@ X_test_scaled = scaler.fit_transform(X_test)
 
 # ===== IMPLEMENTING KNN Algo ======
 
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
 
-model = KNeighborsClassifier(n_neighbors=5)
+model = DecisionTreeClassifier(random_state=42) 
 model.fit(X_train_scaled,y_train)
 y_predct = model.predict(X_test_scaled)
 # print(y_predct)
