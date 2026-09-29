@@ -1,3 +1,4 @@
 LangChain
 langchain-google-genai
+dotenv
 
