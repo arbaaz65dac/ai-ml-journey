@@ -1,4 +1,4 @@
 LangChain
 langchain-google-genai
 dotenv
-
+langchain-community
