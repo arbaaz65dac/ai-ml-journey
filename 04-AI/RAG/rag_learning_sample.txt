@@ -1,0 +1,46 @@
+RAG Learning Notes
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with a language model. Instead of relying only on the knowledge stored inside the model, a RAG system retrieves relevant information from external documents and provides that information to the language model as context.
+
+A basic RAG pipeline usually contains these steps:
+
+1. Load documents.
+2. Split documents into smaller chunks.
+3. Convert chunks into embeddings.
+4. Store embeddings in a vector database.
+5. Retrieve the most relevant chunks for a user query.
+6. Pass the retrieved context to the language model.
+7. Generate an answer using the retrieved information.
+
+LangChain provides document loaders that make it easier to load different types of data. TextLoader is used to load plain text files.
+
+Example:
+
+from langchain_community.document_loaders import TextLoader
+
+loader = TextLoader("rag_notes.txt")
+documents = loader.load()
+
+The load() method returns a list of Document objects. Each Document generally contains the document text in page_content and additional information in metadata.
+
+For example, a text file containing information about Java, Spring Boot, and artificial intelligence can be loaded with TextLoader and then passed to a text splitter.
+
+Text splitting is useful because large documents are usually divided into smaller chunks before creating embeddings. Smaller chunks make retrieval more focused and efficient.
+
+Example RAG technologies include LangChain, Hugging Face, OpenAI models, FAISS, Chroma, Pinecone, and other vector databases.
+
+Important terms:
+
+Document: The original source of information.
+Chunk: A smaller section created from a document.
+Embedding: A numerical representation of text that captures semantic meaning.
+Vector Database: A database designed to store and search embeddings.
+Retriever: A component that finds relevant chunks for a query.
+LLM: A large language model that generates the final response.
+Context: Retrieved information supplied to the language model.
+
+A simple RAG question could be:
+
+Question: What is TextLoader used for?
+
+Answer: TextLoader is used in LangChain to load text files and convert their contents into Document objects that can be processed by the RAG pipeline.

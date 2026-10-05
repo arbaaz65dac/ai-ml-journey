@@ -3,4 +3,6 @@ langchain-google-genai
 dotenv
 langchain-community
 langgraph
-
+pypdf
+beautifulsoup4
+wikipedia

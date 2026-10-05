@@ -1,0 +1,312 @@
+# The Current IT Job Market and the Effect of AI
+
+Good morning everyone,
+
+Today, I want to talk about something that is probably on the mind of every student, developer, and IT professional:
+
+**“What is happening to IT jobs because of AI?”**
+
+A few years ago, learning Java, Python, React, or any other technology could make you stand out.
+
+Today, thousands of people have the same skills.
+
+And now, we have another competitor—or perhaps, another tool—**Artificial Intelligence.**
+
+So the question is:
+
+**Is AI taking our jobs, or is AI changing the way we work?**
+
+I believe the answer is more interesting than simply saying “AI will take jobs.”
+
+---
+
+## The IT Job Market Has Changed
+
+The IT industry is going through a major transformation.
+
+Companies are becoming more careful about hiring. They don't just want someone who knows how to write code.
+
+They want people who can:
+
+* Understand business problems
+* Build real solutions
+* Work with modern technologies
+* Use AI effectively
+* Debug and improve existing systems
+* Communicate with teams and clients
+* Learn continuously
+
+This means that the old approach of:
+
+**“I know a programming language, therefore I am a developer”**
+
+is no longer enough.
+
+Today, companies are asking:
+
+**“What can you build with your skills?”**
+
+And that is a very important difference.
+
+---
+
+## Then Comes AI
+
+AI has changed software development dramatically.
+
+Today, tools powered by AI can generate code, explain code, find bugs, write documentation, generate test cases, analyze data, and even help developers design applications.
+
+A developer who previously spent three hours writing a particular piece of code might now complete the first version in thirty minutes with AI assistance.
+
+But does that mean the developer is no longer needed?
+
+**No.**
+
+Because generating code is not the same as understanding a problem.
+
+AI can generate ten possible solutions.
+
+But someone still needs to decide:
+
+**Which solution is correct?**
+
+Someone needs to understand the architecture.
+
+Someone needs to consider security.
+
+Someone needs to understand scalability.
+
+Someone needs to communicate with the customer.
+
+And someone needs to take responsibility when the system fails.
+
+That someone is still the developer.
+
+---
+
+## AI Is Not Just Replacing Jobs—It Is Changing Jobs
+
+Think about what happened with calculators.
+
+When calculators became common, people didn't stop learning mathematics.
+
+Instead, humans stopped spending their time doing repetitive calculations and started focusing more on problem-solving.
+
+I believe something similar is happening with AI.
+
+AI will increasingly handle repetitive tasks.
+
+Humans will increasingly focus on:
+
+**Problem-solving.
+Decision-making.
+Creativity.
+Architecture.
+Communication.
+Innovation.**
+
+So the real competition may not be:
+
+**Human vs AI.**
+
+It may become:
+
+**Human using AI vs Human not using AI.**
+
+And that difference could become very significant.
+
+---
+
+## But We Should Not Ignore the Risk
+
+At the same time, we should not blindly believe that AI will have no impact on employment.
+
+It will.
+
+Some repetitive roles and tasks will be automated.
+
+Some traditional jobs may become smaller.
+
+Some roles will completely change.
+
+And companies may need fewer people to perform certain types of repetitive work.
+
+That is the reality.
+
+But technology has always changed the job market.
+
+The important question is not:
+
+**“Will AI change my job?”**
+
+The better question is:
+
+**“How will I change myself because of AI?”**
+
+---
+
+## What Should Students and Freshers Do?
+
+This is where I believe students need to change their strategy.
+
+Don't just collect certificates.
+
+Don't learn ten programming languages just to put them on your resume.
+
+And don't build twenty projects by simply copying tutorials.
+
+Instead, develop **depth.**
+
+For example, if you are a Java developer:
+
+Learn Java deeply.
+
+Understand Spring Boot.
+
+Understand databases.
+
+Understand REST APIs.
+
+Understand authentication and security.
+
+Build real applications.
+
+Then learn how AI can be integrated into those applications.
+
+Imagine a Java developer who can build a Spring Boot application and also integrate an LLM, RAG pipeline, vector database, or AI-powered feature.
+
+That developer is much more valuable than someone who simply says:
+
+**“I know ChatGPT.”**
+
+---
+
+## The Future Developer
+
+I believe the developer of the future will not simply be a **coder**.
+
+The developer will become a **problem solver who knows how to use technology—including AI—to solve problems faster.**
+
+Imagine giving the same problem to two developers.
+
+Developer A spends the entire day writing code manually.
+
+Developer B understands the problem, uses AI to accelerate development, validates the generated code, tests it, improves the architecture, and delivers the solution faster.
+
+Who would a company prefer?
+
+Most likely, **Developer B.**
+
+Not because AI replaced the developer.
+
+But because the developer learned how to work with AI.
+
+---
+
+## One More Important Thing: Fundamentals
+
+There is one warning I want to give.
+
+**Don't become completely dependent on AI.**
+
+If AI generates your code and you don't understand it, you are not becoming a better developer.
+
+You are becoming dependent on a tool.
+
+Learn the fundamentals.
+
+Understand programming.
+
+Understand databases.
+
+Understand networking.
+
+Understand operating systems.
+
+Understand system design.
+
+Understand software engineering.
+
+Then use AI as an accelerator.
+
+Because when AI gives you a wrong answer—and it will—you need enough knowledge to recognize that it is wrong.
+
+---
+
+## The Opportunity
+
+So, is the current IT job market difficult?
+
+**Yes.**
+
+Is AI creating pressure?
+
+**Absolutely.**
+
+But is the IT industry dead?
+
+**Definitely not.**
+
+The industry is evolving.
+
+And whenever technology changes, new opportunities appear.
+
+We have already seen this with cloud computing, mobile applications, cybersecurity, data science, and now Generative AI and AI agents.
+
+The people who continuously learn will have opportunities.
+
+The people who refuse to adapt may struggle.
+
+---
+
+## Final Message
+
+So, if you are a student or a fresher sitting here worried about AI taking your job, I want you to change one thought.
+
+Don't ask:
+
+**“How can I compete with AI?”**
+
+Ask:
+
+**“How can I become the person who knows how to use AI better than others?”**
+
+Learn your fundamentals.
+
+Build real projects.
+
+Understand your domain.
+
+Use AI.
+
+Question AI.
+
+Validate AI.
+
+And most importantly—
+
+**Keep learning.**
+
+Because in the new IT industry, your biggest advantage may not be knowing everything.
+
+Your biggest advantage will be your ability to **learn, adapt, and solve problems.**
+
+AI may change the way we write software.
+
+It may change the skills companies demand.
+
+It may change the jobs we do.
+
+But one thing will remain valuable:
+
+**A person who can identify a problem, understand it deeply, and build a meaningful solution.**
+
+So don't be afraid of AI.
+
+**Learn it. Use it. Build with it.**
+
+Because the future doesn't belong to AI alone.
+
+**The future belongs to people who know how to work with AI.**
+
+Thank you.
